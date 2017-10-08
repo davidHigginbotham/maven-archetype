@@ -9,21 +9,16 @@ How to use it:
 3 - Place any test code you want copied into your project under src/test/resources/archetype-resources/src/main/java
 
 4 - Modify the pom under src/main/resources/archetype-resources for the archetype's needs.
- 
-5 - up the release of the archetype so we can track changes just like any other project.
 
-6 - When your ready to build the archetype do a mvn install.
+5 - When your ready to build the archetype do a mvn install.
 
-7 - A local catalog file is required in order for Maven to be aware of your archetype.
+6 - A local catalog file is required in order for Maven to be aware of your archetype.
  
-    To generate the archetype catalog file: mvn archetype:crawl -Dcatalog=archetype-catalog.xml.
-    The file should be created in your local .m2 folder.
+   To generate the archetype catalog file: mvn archetype:crawl -Dcatalog=archetype-catalog.xml.
+   The file should be created in your local .m2 folder.
     
-8 - Now you can try to create a project with your archetype.
+7 - Now you can try to create a project with your archetype. Create a local folder (ex- add a folder to your IdeaProjects folder) and navigate to it.
 
-    There might be a better way but what I did was create a folder under my IdeaProjects folder, then run this command
-    
- 
 
 mvn archetype:generate 
 
