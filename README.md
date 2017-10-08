@@ -1,14 +1,5 @@
 This is a maven archetype template/skeleton project. You can use it as a starting point for creating Maven archetypes.
 
-1 - Provide us with templates for different types of projects Here's a couple patterns we've seen:
-
-A rabbit consumer with database support
-A Rest endpoint with rabbit support 
-A Rest endpoint with database support
-
-2 - Over time enhancements, better practices, and upgrades will be applied to the archetypes allowing us to isolate/control
-our best practices.
-
 How to use it:
 
 1 - Create a new project based on the patriarch archetype.
