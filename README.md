@@ -35,17 +35,29 @@ How to use it:
  
 
 mvn archetype:generate 
-    -DarchetypeGroupId={group id found in the pom file of the archetype}
-    -DarchetypeArtifactId={Artifactid found in the pom file of the archetype} 
-    -DarchetypeVersion={version found in the pom file of the archetype} 
-    -DgroupId={group id you want to use in your new project}
-    -DartifactId={artifact id you want to use in your new project}
+
+   -DarchetypeGroupId={group id found in the pom file of the archetype}
+    
+   -DarchetypeArtifactId={Artifactid found in the pom file of the archetype} 
+    
+   -DarchetypeVersion={version found in the pom file of the archetype} 
+    
+   -DgroupId={group id you want to use in your new project}
+    
+   -DartifactId={artifact id you want to use in your new project}
+    
     
 Example:
+
  
 mvn archetype:generate 
-    -DarchetypeGroupId=com.domain.archetype 
-    -DarchetypeArtifactId=rest-crud 
-    -DarchetypeVersion=1.0.0.SNAPSHOT 
-    -DgroupId=com.domain 
-    -DartifactId=test-archetype
+
+   -DarchetypeGroupId=com.domain.archetype
+    
+   -DarchetypeArtifactId=rest-crud
+    
+   -DarchetypeVersion=1.0.0.SNAPSHOT
+    
+   -DgroupId=com.domain
+    
+   -DartifactId=test-archetype
