@@ -1,4 +1,4 @@
-//Goals of the archetypes 
+This is a maven archetype template/skeleton project. You can use it as a starting point for creating Maven archetypes.
 
 1 - Provide us with templates for different types of projects Here's a couple patterns we've seen:
 
