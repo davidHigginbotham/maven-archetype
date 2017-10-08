@@ -1,0 +1,37 @@
+### Java ###
+target/
+
+### IntelliJ ###
+.idea
+*.iml
+
+### Java ###
+.class
+
+### Package Files ###
+.jar
+.war
+.ear
+
+### Eclipse ###
+.pydevproject
+.metadata
+.gradle
+bin
+tmp
+.tmp
+.bak
+.swp
+~.nib
+.settings
+.loadpath
+.classpath
+.project
+.factorypath
+
+### Logging ###
+*.log
+/.apt_generated/
+
+### Maven Artifacts ###
+pom.xml.versionsBackup
